@@ -1,0 +1,55 @@
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    /* text-align: center; */
+ 
+    margin-top: 4cm;
+    background: url(./bg3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.form-box {
+    background:none;
+
+    color: palevioletred;
+    border: solid;
+    border-color:palevioletred;
+    border-radius: 20px;
+    text-align: center;
+    padding-top: 1cm;
+    margin-left: 14cm;
+    margin-right: 14cm;
+    padding-bottom: 2cm;
+    backdrop-filter: blur(5px);
+
+}
+.form-box h2{
+    margin-left: -4.5cm;
+}
+.ip {
+    margin-left: -1.5cm;
+}
+.ip input {
+    background : none;
+    border: none;
+}
+.remember-check-forget-link label{
+    text-decoration: none;
+}
+.remember-check-forget-link a{
+    /* border-radius: 20px;
+    border: solid palevioletred; */
+    color: palevioletred;
+    text-decoration: none;
+    /* border-width: 2cm; */
+}
+.loginbt button{
+    font-size: large;
+    background: none;
+    border: solid palevioletred;
+    border-radius: 20px;
+    width: 6.3cm;
+}
+.remember-check-forget-link a:hover{
+    text-decoration: underline;
+}
